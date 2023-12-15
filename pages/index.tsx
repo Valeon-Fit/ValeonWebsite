@@ -33,15 +33,14 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
               Intelligent sensors connect to your phone, transforming ordinary gym equipment into immersive platforms. Users get real-time support through workouts, a personalised gym experience and advanced analytics.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.png" title="Gyms and lifters" overTitle="Who's it for?" reversed>
+          <BasicSection imageUrl="/demo-illustration-2.png" title="Designed for gyms" overTitle="Who's it for?" reversed>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
+              Valeon integrates smartly with gyms and our platform is easy to install and maintain. Gyms can provide an immersive fitness experience with no hassle, innovating offerings and attracting more members.
             </p>
             <ul>
-              <li>Professional point 1</li>
-              <li>Professional remark 2</li>
-              <li>Professional feature 3</li>
+              <li>Plug and play</li>
+              <li>No new machines required</li>
+              <li>Integrates with existing equipment</li>
             </ul>
           </BasicSection>
         </WhiteBackgroundContainer>
