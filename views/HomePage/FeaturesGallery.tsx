@@ -10,26 +10,26 @@ import { media } from 'utils/media';
 
 const TABS = [
   {
-    title: 'Find relevant media contacts - multiline title',
+    title: 'Interactive workouts',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/demo-illustration-3.png',
+      '<p>Valeon\'s interactive workouts adjust to your personal fitness level, keeping you challenged and inspired. Engage with a gym experience that\'s intuitive, motivating, and uniquely yours.</p>',
+    imageUrl: '/demo-illustration-1.webp',
     baseColor: '249,82,120',
     secondColor: '221,9,57',
   },
   {
-    title: 'Another amazing feature',
+    title: 'Real-time feedback',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/demo-illustration-4.png',
+      '<p>Valeon\'s advanced sensors analyse your performance in real-time, providing immediate feedback to ensure you stay aligned with your fitness goals, maximising every workout session.</p>',
+    imageUrl: '/demo-illustration-6.png',
     baseColor: '57,148,224',
     secondColor: '99,172,232',
   },
   {
-    title: 'And yet... another truly fascinating feature',
+    title: 'Seamless integration',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/demo-illustration-5.png',
+      '<p>Valeon integrates smoothly with existing gym equipment. Gyms can provide an immersive fitness experience with no hassle, innovating offerings and attracting more members.</p>',
+    imageUrl: '/demo-illustration-2.png',
     baseColor: '88,193,132',
     secondColor: '124,207,158',
   },
@@ -77,7 +77,7 @@ export default function FeaturesGallery() {
     <FeaturesGalleryWrapper>
       <Content>
         <OverTitle>features</OverTitle>
-        <SectionTitle>What are you signing in for?</SectionTitle>
+        <SectionTitle>What can you expect to see?</SectionTitle>
       </Content>
       <GalleryWrapper>
         <TabsContainer>{tabsMarkup}</TabsContainer>

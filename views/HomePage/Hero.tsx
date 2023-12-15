@@ -14,21 +14,20 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
-        <Heading>Make your life easier with our SaaS</Heading>
+        {/* <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle> */}
+        <Heading>Gym workouts reimagined</Heading>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
+          Valeon transforms ordinary gym equipment into smart machines. Our AI-powered platform provides real-time feedback and personalised workouts to help you reach your fitness goals.
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
+            Join the waitlist <span>&rarr;</span>
           </Button>
-          <NextLink href="#whitepaper" passHref>
+          {/* <NextLink href="#whitepaper" passHref>
             <Button transparent>
               Features <span>&rarr;</span>
             </Button>
-          </NextLink>
+          </NextLink> */}
         </CustomButtonGroup>
       </Contents>
       <ImageContainer>
@@ -65,8 +64,8 @@ const CustomButtonGroup = styled(ButtonGroup)`
 const ImageContainer = styled.div`
   display: flex;
   flex: 1;
-  justify-content: flex-end;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 
   svg {
     max-width: 45rem;
